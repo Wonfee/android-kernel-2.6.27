@@ -1,0 +1,1 @@
+cmd_drivers/misc/built-in.o :=  ../../toolschain/4.4.3/bin/arm-linux-ld -EL    -r -o drivers/misc/built-in.o drivers/misc/pmem.o drivers/misc/timed_output.o drivers/misc/timed_gpio.o drivers/misc/binder.o drivers/misc/logger.o 

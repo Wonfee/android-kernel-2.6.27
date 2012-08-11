@@ -1,0 +1,1 @@
+cmd_crypto/built-in.o :=  ../../toolschain/4.4.3/bin/arm-linux-ld -EL    -r -o crypto/built-in.o crypto/crypto.o crypto/crypto_algapi.o crypto/crypto_blkcipher.o crypto/cryptomgr.o crypto/md5.o crypto/ecb.o crypto/cbc.o crypto/des_generic.o crypto/aes_generic.o crypto/arc4.o 

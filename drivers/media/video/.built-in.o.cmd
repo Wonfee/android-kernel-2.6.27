@@ -1,0 +1,1 @@
+cmd_drivers/media/video/built-in.o :=  ../../toolschain/4.4.3/bin/arm-linux-ld -EL    -r -o drivers/media/video/built-in.o drivers/media/video/videodev.o drivers/media/video/compat_ioctl32.o drivers/media/video/v4l2-int-device.o drivers/media/video/v4l2-common.o drivers/media/video/v4l1-compat.o drivers/media/video/ovcamchip/built-in.o drivers/media/video/ov511.o 

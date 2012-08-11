@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_file_storage.ko := ../../toolschain/4.4.3/bin/arm-linux-ld -EL -r   --build-id -o drivers/usb/gadget/g_file_storage.ko drivers/usb/gadget/g_file_storage.o drivers/usb/gadget/g_file_storage.mod.o

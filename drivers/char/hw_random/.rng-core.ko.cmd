@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/rng-core.ko := ../../toolschain/4.4.3/bin/arm-linux-ld -EL -r   --build-id -o drivers/char/hw_random/rng-core.ko drivers/char/hw_random/rng-core.o drivers/char/hw_random/rng-core.mod.o

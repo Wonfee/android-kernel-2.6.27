@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/built-in.o :=  ../../toolschain/4.4.3/bin/arm-linux-ld -EL    -r -o drivers/input/keyboard/built-in.o drivers/input/keyboard/atkbd.o drivers/input/keyboard/sunkbd.o drivers/input/keyboard/lkkbd.o drivers/input/keyboard/xtkbd.o drivers/input/keyboard/newtonkbd.o drivers/input/keyboard/stowaway.o 

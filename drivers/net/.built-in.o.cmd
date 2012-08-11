@@ -1,0 +1,1 @@
+cmd_drivers/net/built-in.o :=  ../../toolschain/4.4.3/bin/arm-linux-ld -EL    -r -o drivers/net/built-in.o drivers/net/mii.o drivers/net/Space.o drivers/net/loopback.o drivers/net/dummy.o drivers/net/dm9000.o drivers/net/arm/built-in.o drivers/net/usb/built-in.o drivers/net/wireless/built-in.o 

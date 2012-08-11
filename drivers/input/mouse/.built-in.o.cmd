@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/built-in.o :=  ../../toolschain/4.4.3/bin/arm-linux-ld -EL    -r -o drivers/input/mouse/built-in.o drivers/input/mouse/appletouch.o drivers/input/mouse/psmouse.o drivers/input/mouse/sermouse.o drivers/input/mouse/vsxxxaa.o drivers/input/mouse/gpio_mouse.o 

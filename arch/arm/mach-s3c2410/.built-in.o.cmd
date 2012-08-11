@@ -1,0 +1,1 @@
+cmd_arch/arm/mach-s3c2410/built-in.o :=  ../../toolschain/4.4.3/bin/arm-linux-ld -EL    -r -o arch/arm/mach-s3c2410/built-in.o arch/arm/mach-s3c2410/s3c2410.o arch/arm/mach-s3c2410/irq.o arch/arm/mach-s3c2410/dma.o arch/arm/mach-s3c2410/gpio.o arch/arm/mach-s3c2410/clock.o arch/arm/mach-s3c2410/mach-smdk2410.o 
